@@ -1,0 +1,73 @@
+body {
+    font-family: 'Inconsolata';
+    background-color:  rgb(121, 161, 240);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main{
+    margin-top: 35px;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    background-color:  rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    background: plum;
+    width: 420px;
+}
+
+
+img{
+    width: 110px;
+    height: 110px;
+    border-radius: 80px;
+}
+
+.senai{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(121, 161, 240);
+    font-weight: bold;
+}
+
+.escola{
+    color: black;
+    font-size: 15px;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4 {
+    box-shadow: 5px 6px  rgb(236, 141, 215);
+    background-color: rgb(121, 161, 240);
+    text-align: center;
+    width: 210px;
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.bloco1:hover, .bloco2:hover, .bloco3:hover, .bloco4:hover {
+    background-color: rgb(15, 95, 214); /* Nova cor ao passar o mouse */
+}
+
+.bloco_principal{
+    align-items: center;
+}
+
+.footer{
+    margin-top: 240px;
+    display: flex;
+}
